@@ -1,0 +1,38 @@
+body {
+  background-size: 600px;
+  font-family: serif;
+  font-size: 16px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+.articleBody {
+  height: 200px;
+  font-size: 20px;
+  overflow-y: scroll;
+  line-height: 150%;
+}
+#btnSignUp {
+  background-color: #1d1c1c;
+}
+#nameComment {
+  font-weight: bold;
+  background: #7a6f72;
+  color: white;
+}
+.input-field input[type="text"]:focus + label {
+  color: #7a6e71;
+}
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #474646;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field .prefix.active {
+  color: #6e6a6b;
+}
+.topnav {
+  background-color: #837e7f;
+}
